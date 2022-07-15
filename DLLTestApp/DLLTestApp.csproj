@@ -47,6 +47,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="ExtDebugConnector.cs" />
+        <Compile Include="ExtDebugServer.cs" />
         <Compile Include="MainForm.cs">
           <SubType>Form</SubType>
         </Compile>

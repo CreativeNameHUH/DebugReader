@@ -1,8 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugReader", "DebugReader\DebugReader.csproj", "{1A35C442-A5B5-457A-B239-EFA2B5DC4521}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C} = {9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLTestApp", "DLLTestApp\DLLTestApp.csproj", "{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95516424-E325-4172-B32F-5E5403D0CE10} = {95516424-E325-4172-B32F-5E5403D0CE10}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugConnector", "DebugConnector\DebugConnector.vcxproj", "{767B311C-4FE1-471F-9F6D-58C50DB38FB0}"
 EndProject

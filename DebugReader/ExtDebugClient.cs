@@ -4,13 +4,13 @@ namespace DebugReader
 {
     public static class ExtDebugClient
     {
-        [DllImport("DebugClient.dll")]
-        public static extern int Intialize();
+        [DllImport("DebugClient.dll", CallingConvention = CallingConvention.Cdecl)]
+        public static extern int Initialize();
         
-        [DllImport("DebugClient.dll")]
+        [DllImport("DebugClient.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern int Terminate();
         
-        [DllImport("DebugClient.dll")]
+        [DllImport("DebugClient.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern string GetData();
     }
 }

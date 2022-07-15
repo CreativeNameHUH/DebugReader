@@ -2,6 +2,8 @@
 
 #include <fstream>
 
+bool Lock::mIsLocked = false;
+
 bool Lock::Close()
 {
     std::ofstream lock(FILE_NAME);

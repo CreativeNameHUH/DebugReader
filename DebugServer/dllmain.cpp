@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <fstream>
+#include <tchar.h>
 
 #include "debugServer.h"
 #include "budgetLock.h"
@@ -43,7 +44,7 @@ void SendData(const char* data, int dataLength)
 {
     Lock::Close();
     {
-        CopyMemory((PVOID)ds_buffer, data, dataLength * sizeof(char));
+        CopyMemory((PVOID)ds_buffer, test, (_tcslen(test) * sizeof(TCHAR)));
     }
     Lock::Open();
 }

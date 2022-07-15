@@ -17,7 +17,7 @@ namespace DebugReader
         {
             InitializeComponent();
 
-            if (ExtDebugClient.Intialize() > 0)
+            if (ExtDebugClient.Initialize() > 0)
                 MessageBox.Show("Could not initialize debug client");
             else
                 isDebugObjectLoaded = true;
@@ -29,7 +29,7 @@ namespace DebugReader
                 return;
 
             textBox1.Text = ExtDebugClient.GetData();
-            ExtDebugClient.Terminate();
+            //ExtDebugClient.Terminate();
         }
     }
 }

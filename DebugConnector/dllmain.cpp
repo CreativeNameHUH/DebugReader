@@ -1,6 +1,6 @@
 #include <windows.h>
 
-#include "debugConnector.h"
+/*#include "debugConnector.h"
 
 bool IsDataAvailable()
 {
@@ -23,7 +23,7 @@ int GetInt()
     
     dc_isDataAvailable = false;
     return dc_value;
-}
+}*/
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
 {

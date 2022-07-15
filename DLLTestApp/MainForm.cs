@@ -5,9 +5,20 @@ namespace DLLTestApp
 {
     public partial class MainForm : Form
     {
+        private bool _isDebugServerInitialized;
         public MainForm()
         {
             InitializeComponent();
+
+            int result = ExtDebugServer.Initialize();
+            if (result > 0)
+            {
+                MessageBox.Show("Failed to initialize debug server. ERROR: " + result);
+            }
+            else
+            {
+                _isDebugServerInitialized = true;
+            }
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -17,14 +28,11 @@ namespace DLLTestApp
 
         private void SendButton_Click(object sender, EventArgs e)
         {
-            if (ExtDebugConnector.IsDataAvailable())
-            {
-                TextBox1.Text = ExtDebugConnector.GetInt().ToString();
-            }
-            else
-            {
-                ExtDebugConnector.SetInt(Convert.ToInt32(TextBox1.Text));
-            }
+            if (!_isDebugServerInitialized)
+                return;
+            
+            ExtDebugServer.SendData(TextBox1.Text, TextBox1.Text.Length);
+            //ExtDebugServer.Terminate();
         }
     }
 }

@@ -11,7 +11,7 @@ public:
     static bool IsLocked();
 
 private:
-    static bool mIsLocked = false;
+    static bool mIsLocked;
 };
 
 #endif // _WALMART_LOCK_H_

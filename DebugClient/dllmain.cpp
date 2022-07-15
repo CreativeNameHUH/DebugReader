@@ -1,4 +1,5 @@
 #include <windows.h>
+#include <comdef.h>
 
 
 #include "debugClient.h"
@@ -36,9 +37,12 @@ const char* GetData()
 {
     if (!dc_handle)
         return "Handle is null";
-    
-    const char* pBuffer = static_cast<const char*>(MapViewOfFile(dc_handle, FILE_MAP_ALL_ACCESS, 0, 0, BUFFER_SIZE));
-    return pBuffer;
+
+    const LPCTSTR pBuffer = static_cast<LPCTSTR>(MapViewOfFile(dc_handle, FILE_MAP_ALL_ACCESS, 0, 0, BUFFER_SIZE));
+    const char* data = _bstr_t(pBuffer);
+
+    UnmapViewOfFile(pBuffer);
+    return data;
 }
 
 
