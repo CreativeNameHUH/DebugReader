@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugReader", "DebugReader\DebugReader.csproj", "{1A35C442-A5B5-457A-B239-EFA2B5DC4521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLTestApp", "DLLTestApp\DLLTestApp.csproj", "{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugConnector", "DebugConnector\DebugConnector.vcxproj", "{767B311C-4FE1-471F-9F6D-58C50DB38FB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugClient", "DebugClient\DebugClient.vcxproj", "{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugServer", "DebugServer\DebugServer.vcxproj", "{95516424-E325-4172-B32F-5E5403D0CE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A35C442-A5B5-457A-B239-EFA2B5DC4521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A35C442-A5B5-457A-B239-EFA2B5DC4521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A35C442-A5B5-457A-B239-EFA2B5DC4521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A35C442-A5B5-457A-B239-EFA2B5DC4521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399D89FD-B9B9-4B3B-9E1B-9177D63EA38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767B311C-4FE1-471F-9F6D-58C50DB38FB0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{767B311C-4FE1-471F-9F6D-58C50DB38FB0}.Debug|Any CPU.Build.0 = Debug|Win32
+		{767B311C-4FE1-471F-9F6D-58C50DB38FB0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{767B311C-4FE1-471F-9F6D-58C50DB38FB0}.Release|Any CPU.Build.0 = Release|Win32
+		{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}.Debug|Any CPU.Build.0 = Debug|Win32
+		{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9678D379-56FF-4BF1-8EFB-EFCE0F1CDF7C}.Release|Any CPU.Build.0 = Release|Win32
+		{95516424-E325-4172-B32F-5E5403D0CE10}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{95516424-E325-4172-B32F-5E5403D0CE10}.Debug|Any CPU.Build.0 = Debug|Win32
+		{95516424-E325-4172-B32F-5E5403D0CE10}.Release|Any CPU.ActiveCfg = Release|Win32
+		{95516424-E325-4172-B32F-5E5403D0CE10}.Release|Any CPU.Build.0 = Release|Win32
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\DEV\C#\DebugReader\DebugReader\bin\Debug\DebugReader.exe.config
+C:\DEV\C#\DebugReader\DebugReader\bin\Debug\DebugReader.exe
+C:\DEV\C#\DebugReader\DebugReader\bin\Debug\DebugReader.pdb
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.csproj.AssemblyReference.cache
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.csproj.SuggestedBindingRedirects.cache
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.Properties.Resources.resources
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.csproj.GenerateResource.cache
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.csproj.CoreCompileInputs.cache
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.exe
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.pdb
+C:\DEV\C#\DebugReader\DebugReader\obj\Debug\DebugReader.Form1.resources

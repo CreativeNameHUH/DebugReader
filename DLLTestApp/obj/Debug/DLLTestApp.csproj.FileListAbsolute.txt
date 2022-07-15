@@ -1,0 +1,11 @@
+C:\DEV\C#\DebugReader\DLLTestApp\bin\Debug\DLLTestApp.exe.config
+C:\DEV\C#\DebugReader\DLLTestApp\bin\Debug\DLLTestApp.exe
+C:\DEV\C#\DebugReader\DLLTestApp\bin\Debug\DLLTestApp.pdb
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.csproj.AssemblyReference.cache
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.csproj.SuggestedBindingRedirects.cache
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.Properties.Resources.resources
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.csproj.GenerateResource.cache
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.csproj.CoreCompileInputs.cache
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.exe
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.pdb
+C:\DEV\C#\DebugReader\DLLTestApp\obj\Debug\DLLTestApp.MainForm.resources
